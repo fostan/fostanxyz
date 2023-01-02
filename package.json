@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "fostan",
   "dependencies": {
+    "framer-motion": "^8.0.2",
     "gatsby": "^5.3.3",
     "gatsby-plugin-image": "^3.3.2",
     "gatsby-plugin-manifest": "^5.3.1",
