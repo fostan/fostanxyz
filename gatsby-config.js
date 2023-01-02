@@ -15,6 +15,7 @@ module.exports = {
     siteUrl: `https://fostan.xyz`,
   },
   plugins: [
+    'gatsby-plugin-postcss',
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
