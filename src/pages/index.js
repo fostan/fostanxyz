@@ -6,10 +6,14 @@ import ScrollArea from "../components/ScrollArea"
 
 const IndexPage = () => (
   <Layout>
-    <div className="container">
-      <h1>fostan.xyz</h1>
+    <div className="relative grid grid-cols-2 gap-8">
+      
       <ScrollArea />
+      <div className="h-screen bg-gray-100 flex items-center sticky top-0">
+        <h1>fostan.xyz</h1>
+      </div>
     </div>
+    <div className="h-screen bg-green-800"></div>
 
   </Layout>
 )
